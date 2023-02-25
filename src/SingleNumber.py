@@ -38,4 +38,4 @@ class SingleNumber:
 instance = SingleNumber()
 nums = [2,1,4,2,6,4,6]
 output = instance.singleNumber(nums)
-print(output)
+print("Single unique no is: ", output)
