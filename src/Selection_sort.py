@@ -24,8 +24,8 @@ def Selection_sort(A, n):
 	for i in range(0,n):
 		print(listElements[i])
 
-	# Traverse the list or array from index 1 to n.
-	for i in range(0, n):
+	# Traverse the list or array from index 1 to n -1.
+	for i in range(0, n-1):
 		Smallest = listElements[i]
 		swapIndex = i
 		# Serch the remainder of the array for the smallest element
