@@ -1,4 +1,4 @@
-class Nuberof1Bits:
+class Numberof1Bits:
 # 	191. Number of 1 Bits
 # https://leetcode.com/problems/number-of-1-bits/
 
@@ -24,6 +24,6 @@ class Nuberof1Bits:
       return count
 
 # Testing
-instance = Nuberof1Bits()
+instance = Numberof1Bits()
 n = 55
 print("No of 1 bits in", n, "is: ",instance.hammingWeight(55))
