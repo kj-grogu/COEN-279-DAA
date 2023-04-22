@@ -11,4 +11,5 @@
 | 6   | <b>SpiralMatrix</b> <br>    | [54](https://leetcode.com/problems/spiral-matrix/)     | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SpiralMatrix.py)    |
 | 7   | <b>SetMatrixZeroes</b> <br> | [73](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SetMatrixZeroes.py) |
 | 8   | <b>HappyNumber</b> <br>     | [202](https://leetcode.com/problems/happy-number/)     | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/HappyNumber.py)     |
-| 9   | <b>PlusOne</b> <br>         | [66](https://leetcode.com/problems/plus-one/)          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/PlusOne.py)         |
+| 9J  | <b>PlusOne</b> <br>         | [66](https://leetcode.com/problems/plus-one/)          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/PlusOne.py)         |
+| 10  | <b>Power</b> <br>           | [50](https://leetcode.com/problems/powx-n/)            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/Power.py)           |
