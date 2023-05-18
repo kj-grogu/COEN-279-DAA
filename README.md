@@ -14,3 +14,4 @@
 | 9J  | <b>PlusOne</b> <br>         | [66](https://leetcode.com/problems/plus-one/)            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/PlusOne.py)         |
 | 10  | <b>Power</b> <br>           | [50](https://leetcode.com/problems/powx-n/)              | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/Power.py)           |
 | 11  | <b>MaxAreaofIsland</b> <br> | [695](https://leetcode.com/problems/max-area-of-island/) | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxAreaofIsland.py) |
+| 12  | <b>MultiplyStrings</b> <br> | [43](https://leetcode.com/problems/multiply-strings/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MultiplyStrings.py) |
