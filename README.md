@@ -1,4 +1,4 @@
-# Algorithms Problems Java
+# Algorithms Problems Python
 
 | #   | Problem                     | Problem Link                                             | Solution                                                                              |
 | --- | --------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------- |
@@ -15,3 +15,6 @@
 | 10  | <b>Power</b> <br>           | [50](https://leetcode.com/problems/powx-n/)              | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/Power.py)           |
 | 11  | <b>MaxAreaofIsland</b> <br> | [695](https://leetcode.com/problems/max-area-of-island/) | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxAreaofIsland.py) |
 | 12  | <b>MultiplyStrings</b> <br> | [43](https://leetcode.com/problems/multiply-strings/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MultiplyStrings.py) |
+| 13  | <b>WallsAndGates</b> <br> | [286](https://leetcode.com/problems/walls-and-gates/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/WallsAndGates.py) |
+| 14  | <b>CourseSchedule</b> <br> | [207](https://leetcode.com/problems/course-schedule/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CourseSchedule.py) |
+| 15  | <b>CourseSchedule2</b> <br> | [210](https://leetcode.com/problems/course-schedule-ii/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CourseSchedule2.py) |
