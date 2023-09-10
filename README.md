@@ -18,3 +18,4 @@
 | 13  | <b>WallsAndGates</b> <br> | [286](https://leetcode.com/problems/walls-and-gates/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/WallsAndGates.py) |
 | 14  | <b>CourseSchedule</b> <br> | [207](https://leetcode.com/problems/course-schedule/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CourseSchedule.py) |
 | 15  | <b>CourseSchedule2</b> <br> | [210](https://leetcode.com/problems/course-schedule-ii/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CourseSchedule2.py) |
+| 16  | <b>RedundantConnection</b> <br> | [684](https://leetcode.com/problems/redundant-connection/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/RedundantConnection.py) |

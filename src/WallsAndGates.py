@@ -4,8 +4,9 @@ from collections import deque
 
 class WallsAndGates:
 # 286. Walls and Gates
-# You are given an m x n grid rooms initialized with these three possible values.
+# https://leetcode.com/problems/walls-and-gates/
 
+# You are given an m x n grid rooms initialized with these three possible values.
 # -1 A wall or an obstacle.
 # 0 A gate.
 # INF Infinity means an empty room. We use the value 231 - 1 = 2147483647 to represent INF as you may assume that the distance to a gate is less than 2147483647.
