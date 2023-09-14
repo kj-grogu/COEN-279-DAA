@@ -20,3 +20,4 @@
 | 15  | <b>CourseSchedule2</b> <br> | [210](https://leetcode.com/problems/course-schedule-ii/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CourseSchedule2.py) |
 | 16  | <b>RedundantConnection</b> <br> | [684](https://leetcode.com/problems/redundant-connection/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/RedundantConnection.py) |
 | 17  | <b>NumOfConnectedComponents</b> <br> | [323](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/NumOfConnectedComponents.py) |
+| 18  | <b>GraphValidTree</b> <br> | [261](https://leetcode.com/problems/graph-valid-tree/)    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/GraphValidTree.py) |
