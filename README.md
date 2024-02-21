@@ -26,3 +26,4 @@
 | 21  | <b>UniqueIntsAfterKRemovals</b> <br>  | [1481](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)     | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/UniqueIntsAfterKRemovals.py)  |
 | 22  | <b>FurtherBuildingdsCanReach</b> <br> | [1642](https://leetcode.com/problems/furthest-building-you-can-reach/)                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/FurtherBuildingdsCanReach.py) |
 | 23  | <b>MaxPathSum</b> <br>                | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxPathSum.py)                |
+| 24  | <b>JumpGameII</b> <br>                | [45](https://leetcode.com/problems/jump-game-ii/)                                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/JumpGameII.py)                |
