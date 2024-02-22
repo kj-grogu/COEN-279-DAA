@@ -27,3 +27,4 @@
 | 22  | <b>FurtherBuildingdsCanReach</b> <br> | [1642](https://leetcode.com/problems/furthest-building-you-can-reach/)                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/FurtherBuildingdsCanReach.py) |
 | 23  | <b>MaxPathSum</b> <br>                | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxPathSum.py)                |
 | 24  | <b>JumpGameII</b> <br>                | [45](https://leetcode.com/problems/jump-game-ii/)                                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/JumpGameII.py)                |
+| 25  | <b>GasStation</b> <br>                | [134](https://leetcode.com/problems/gas-station/)                                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/GasStation.py)                |
