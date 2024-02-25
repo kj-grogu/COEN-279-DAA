@@ -29,3 +29,4 @@
 | 24  | <b>JumpGameII</b> <br>                | [45](https://leetcode.com/problems/jump-game-ii/)                                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/JumpGameII.py)                |
 | 25  | <b>GasStation</b> <br>                | [134](https://leetcode.com/problems/gas-station/)                                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/GasStation.py)                |
 | 26  | <b>HandsOfStraight</b> <br>           | [846](https://leetcode.com/problems/hand-of-straights/)                                     | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/HandsOfStraight.py)           |
+| 27  | <b>ValidParanthesisString</b> <br>    | [678](https://leetcode.com/problems/valid-parenthesis-string/)                              | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ValidParanthesisString.py)    |
