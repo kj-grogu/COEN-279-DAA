@@ -65,6 +65,7 @@ class ReverseLinkedList:
 # Complexity:
 # T: O(N)
 # S: O(N), recursive call stack space.
+
     def traveseList(self, head: Optional[ListNode]) -> None:
         listStr = ""
         while head:
