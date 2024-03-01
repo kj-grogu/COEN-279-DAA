@@ -35,3 +35,4 @@
 | 30  | <b>ReverseLinkedList</b> <br>         | [206](https://leetcode.com/problems/reverse-linked-list/)                                   | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ReverseLinkedList.py)         |
 | 31  | <b>ReorderList</b> <br>               | [143](https://leetcode.com/problems/reorder-list/)                                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ReorderList.py)               |
 | 32  | <b>AddTwoNumsLL</b> <br>              | [2](https://leetcode.com/problems/add-two-numbers/reorder-list/)                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/AddTwoNumsLL.py)              |
+| 33  | <b>FindDuplicateNumber</b> <br>       | [287](https://leetcode.com/problems/find-the-duplicate-number/)                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/FindDuplicateNumber.py)       |
