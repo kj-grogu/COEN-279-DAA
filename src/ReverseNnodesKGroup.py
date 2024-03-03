@@ -34,7 +34,7 @@ class ListNode:
         self.val = val
         self.next = next
 
-class ReveseNnodesKGroups:
+class ReverseNnodesKGroups:
     def traveseList(self, head: Optional[ListNode]) -> None:
         listStr = ""
         while head:
