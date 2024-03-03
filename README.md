@@ -37,3 +37,4 @@
 | 32  | <b>AddTwoNumsLL</b> <br>              | [2](https://leetcode.com/problems/add-two-numbers/reorder-list/)                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/AddTwoNumsLL.py)              |
 | 33  | <b>FindDuplicateNumber</b> <br>       | [287](https://leetcode.com/problems/find-the-duplicate-number/)                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/FindDuplicateNumber.py)       |
 | 34  | <b>LRUCache</b> <br>                  | [146](https://leetcode.com/problems/lru-cache/)                                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/LRUCache.py)                  |
+| 35  | <b>ReveseNnodesKGroups</b> <br>       | [25](https://leetcode.com/problems/reverse-nodes-in-k-group/)                               | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ReveseNnodesKGroups.py)       |
