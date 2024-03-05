@@ -39,3 +39,4 @@
 | 34  | <b>LRUCache</b> <br>                  | [146](https://leetcode.com/problems/lru-cache/)                                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/LRUCache.py)                  |
 | 35  | <b>ReverseNnodesKGroups</b> <br>      | [25](https://leetcode.com/problems/reverse-nodes-in-k-group/)                               | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ReverseNnodesKGroup.py)       |
 | 36  | <b>ImplementTrie</b> <br>             | [208](https://leetcode.com/problems/implement-trie-prefix-tree/)                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ImplementTrie.py)             |
+| 37  | <b>AddNSearchDataStrc</b> <br>        | [211](https://leetcode.com/problems/design-add-and-search-words-data-structure/)            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/AddNSearchDataStrc.py)        |
