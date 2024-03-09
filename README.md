@@ -43,3 +43,4 @@
 | 38  | <b>ValidParantheses</b> <br>          | [20](https://leetcode.com/problems/valid-parentheses/)                                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ValidParantheses.py)          |
 | 39  | <b>MinStack</b> <br>                  | [155](https://leetcode.com/problems/min-stack/)                                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinStack.py)                  |
 | 40  | <b>CarFleet</b> <br>                  | [853](https://leetcode.com/problems/car-fleet/)                                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CarFleet.py)                  |
+| 41  | <b>PermutationInString</b> <br>       | [576](https://leetcode.com/problems/permutation-in-string/)                                 | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/PermutationInString.py)       |
