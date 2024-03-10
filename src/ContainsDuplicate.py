@@ -27,9 +27,12 @@ class ContainsDuplicate:
     def containsDuplicate(self, nums: List[int]) -> bool:
         uniqueNums = set()
         for num in nums:
+            if num in uniqueNums:
+                return True
             uniqueNums.add(num)
 
-        return len(nums) != len(uniqueNums)
+        return False
+        
         
 # Complexity:
 # T: O(N)
