@@ -45,3 +45,4 @@
 | 40  | <b>CarFleet</b> <br>                  | [853](https://leetcode.com/problems/car-fleet/)                                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CarFleet.py)                  |
 | 41  | <b>PermutationInString</b> <br>       | [576](https://leetcode.com/problems/permutation-in-string/)                                 | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/PermutationInString.py)       |
 | 42  | <b>ContainsDuplicate</b> <br>         | [217](https://leetcode.com/problems/contains-duplicate/)                                    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ContainsDuplicate.py)         |
+| 43  | <b>ReverseInteger</b> <br>            | [7](https://leetcode.com/problems/reverse-integer/description/)                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ReverseInteger.py)            |
