@@ -53,5 +53,9 @@ class ReverseInteger:
 # T: O(lg x)
 # S: O(1)
 
+# Testing:
+instance = ReverseInteger()
+x = 123
+print("reverse of number", x, "is: ", instance.reverse(x))
 
         
