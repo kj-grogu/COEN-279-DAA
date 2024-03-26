@@ -47,3 +47,4 @@
 | 42  | <b>ContainsDuplicate</b> <br>         | [217](https://leetcode.com/problems/contains-duplicate/)                                    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ContainsDuplicate.py)         |
 | 43  | <b>ReverseInteger</b> <br>            | [7](https://leetcode.com/problems/reverse-integer/description/)                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ReverseInteger.py)            |
 | 44  | <b>ValidSuduko</b> <br>               | [36](https://leetcode.com/problems/valid-sudoku/)                                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ValidSuduko.py)               |
+| 45  | <b>InsertInterval</b> <br>            | [57](https://leetcode.com/problems/insert-interval/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/InsertInterval.py)            |
