@@ -49,3 +49,4 @@
 | 44  | <b>ValidSuduko</b> <br>               | [36](https://leetcode.com/problems/valid-sudoku/)                                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ValidSuduko.py)               |
 | 45  | <b>InsertInterval</b> <br>            | [57](https://leetcode.com/problems/insert-interval/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/InsertInterval.py)            |
 | 46  | <b>MergeIntervals</b> <br>            | [56](https://leetcode.com/problems/merge-intervals/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MergeIntervals.py)            |
+| 47  | <b>NonOverlappingIntervals</b> <br>   | [435](https://leetcode.com/problems/non-overlapping-intervals/)                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/NonOverlappingIntervals.py)   |
