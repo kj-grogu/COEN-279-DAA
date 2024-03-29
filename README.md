@@ -51,3 +51,4 @@
 | 46  | <b>MergeIntervals</b> <br>            | [56](https://leetcode.com/problems/merge-intervals/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MergeIntervals.py)            |
 | 47  | <b>NonOverlappingIntervals</b> <br>   | [435](https://leetcode.com/problems/non-overlapping-intervals/)                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/NonOverlappingIntervals.py)   |
 | 48  | <b>MeetingRooms_1</b> <br>            | [252](https://leetcode.com/problems/meeting-rooms/)                                         | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MeetingRooms_1.py)            |
+| 49  | <b>MeetingRooms_II</b> <br>           | [253](https://leetcode.com/problems/meeting-rooms-ii/)                                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MeetingRooms_II.py)           |
