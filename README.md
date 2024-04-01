@@ -54,3 +54,4 @@
 | 49  | <b>MeetingRooms_II</b> <br>           | [253](https://leetcode.com/problems/meeting-rooms-ii/)                                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MeetingRooms_II.py)           |
 | 50  | <b>MinCostConnectAllPoints</b> <br>   | [253](https://leetcode.com/problems/min-cost-to-connect-all-points/)                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinCostConnectAllPoints.py)   |
 | 51  | <b>NetworkDelayTime</b> <br>          | [743](https://leetcode.com/problems/network-delay-time/)                                    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/NetworkDelayTime.py)          |
+| 52  | <b>CheapestFlightsWithKStops</b> <br> | [743](https://leetcode.com/problems/cheapest-flights-within-k-stops/)                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CheapestFlightsWithKStops.py) |
