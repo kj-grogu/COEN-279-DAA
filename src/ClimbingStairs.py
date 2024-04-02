@@ -55,6 +55,11 @@ class ClimbingStairs:
 # Complexity:
 # T: O(N)
 # S: O(1)
+    
+# Testing:
+instance = ClimbingStairs()
+n = 7
+print("Number of ways to climb 7 stars with 1 or 2 steps at a time is: ", instance.climbStairs(n))
         
 
 
