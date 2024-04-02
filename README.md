@@ -56,3 +56,4 @@
 | 51  | <b>NetworkDelayTime</b> <br>          | [743](https://leetcode.com/problems/network-delay-time/)                                    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/NetworkDelayTime.py)          |
 | 52  | <b>CheapestFlightsWithKStops</b> <br> | [743](https://leetcode.com/problems/cheapest-flights-within-k-stops/)                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CheapestFlightsWithKStops.py) |
 | 53  | <b>NumberOfIslands</b> <br>           | [200](https://leetcode.com/problems/number-of-islands/)                                     | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/NumberOfIslands.py)           |
+| 54  | <b>ClimbingStairs</b> <br>            | [70](https://leetcode.com/problems/climbing-stairs/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ClimbingStairs.py)            |
