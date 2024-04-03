@@ -58,3 +58,4 @@
 | 53  | <b>NumberOfIslands</b> <br>           | [200](https://leetcode.com/problems/number-of-islands/)                                     | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/NumberOfIslands.py)           |
 | 54  | <b>ClimbingStairs</b> <br>            | [70](https://leetcode.com/problems/climbing-stairs/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ClimbingStairs.py)            |
 | 55  | <b>MinCostClimbingStairs</b> <br>     | [746](https://leetcode.com/problems/min-cost-climbing-stairs/)                              | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinCostClimbingStairs.py)     |
+| 56  | <b>HouseRobber</b> <br>               | [198](https://leetcode.com/problems/house-robber/)                                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/HouseRobber.py)               |
