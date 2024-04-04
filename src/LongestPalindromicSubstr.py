@@ -60,11 +60,10 @@ class LongestPalindromicSubstr:
 # T: O(N^2)
 # S: O(1)
 
-
 # Testing:
 instance = LongestPalindromicSubstr()
 s = "babad"
-print("The longest palindromic substring in the give string \"",s,"\" is:", instance.longestPalindrome(s))
+print("The longest palindromic substring in the give string \"", s, "\" is:", instance.longestPalindrome(s))
 # Output: "bab"
 
             
