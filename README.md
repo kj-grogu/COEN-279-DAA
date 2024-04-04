@@ -60,3 +60,4 @@
 | 55  | <b>MinCostClimbingStairs</b> <br>     | [746](https://leetcode.com/problems/min-cost-climbing-stairs/)                              | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinCostClimbingStairs.py)     |
 | 56  | <b>HouseRobber</b> <br>               | [198](https://leetcode.com/problems/house-robber/)                                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/HouseRobber.py)               |
 | 57  | <b>HouseRobberII</b> <br>             | [213](https://leetcode.com/problems/house-robber-ii/)                                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/HouseRobberII.py)             |
+| 58  | <b>LongestPalindromicSubstr</b> <br>  | [5](https://leetcode.com/problems/longest-palindromic-substring/)                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/LongestPalindromicSubstr.py)  |
