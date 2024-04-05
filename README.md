@@ -63,3 +63,4 @@
 | 58  | <b>LongestPalindromicSubstr</b> <br>  | [5](https://leetcode.com/problems/longest-palindromic-substring/)                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/LongestPalindromicSubstr.py)  |
 | 59  | <b>PalindromicSubstrings</b> <br>     | [647](https://leetcode.com/problems/palindromic-substrings/)                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/PalindromicSubstrings.py)     |
 | 60  | <b>DecodeWays</b> <br>                | [91](https://leetcode.com/problems/decode-ways/)                                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/DecodeWays.py)                |
+| 61  | <b>CoinChange</b> <br>                | [322](https://leetcode.com/problems/coin-change/)                                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CoinChange.py)                |
