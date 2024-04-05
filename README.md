@@ -62,3 +62,4 @@
 | 57  | <b>HouseRobberII</b> <br>             | [213](https://leetcode.com/problems/house-robber-ii/)                                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/HouseRobberII.py)             |
 | 58  | <b>LongestPalindromicSubstr</b> <br>  | [5](https://leetcode.com/problems/longest-palindromic-substring/)                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/LongestPalindromicSubstr.py)  |
 | 59  | <b>PalindromicSubstrings</b> <br>     | [647](https://leetcode.com/problems/palindromic-substrings/)                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/PalindromicSubstrings.py)     |
+| 60  | <b>DecodeWays</b> <br>                | [91](https://leetcode.com/problems/decode-ways/)                                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/DecodeWays.py)                |
