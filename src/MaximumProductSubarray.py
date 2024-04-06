@@ -31,7 +31,7 @@ import heapq
 from typing import List
 from typing import Optional
 
-class SolutioMaximumProductSubarray:
+class MaximumProductSubarray:
     def maxProduct(self, nums: List[int]) -> int:
         res = max(nums) # not 0 because nums can have all -ve values
         curMax = curMin = 1 # To track curMin and curMax products of subarray
@@ -53,7 +53,7 @@ class SolutioMaximumProductSubarray:
 # S: O(1)
 
 # Testing:
-instance = SolutioMaximumProductSubarray()
+instance = MaximumProductSubarray()
 nums = [2,3,-2,4]
 # Output: 6
 print("Given nums array is:",nums)
