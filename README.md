@@ -65,3 +65,4 @@
 | 60  | <b>DecodeWays</b> <br>                | [91](https://leetcode.com/problems/decode-ways/)                                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/DecodeWays.py)                |
 | 61  | <b>CoinChange</b> <br>                | [322](https://leetcode.com/problems/coin-change/)                                           | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CoinChange.py)                |
 | 62  | <b>MaximumProductSubarray</b> <br>    | [152](https://leetcode.com/problems/maximum-product-subarray/)                              | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaximumProductSubarray.py)    |
+| 63  | <b>WordBreak</b> <br>                 | [139](https://leetcode.com/problems/word-break/)                                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/WordBreak.py)                 |
