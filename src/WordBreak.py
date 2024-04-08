@@ -65,3 +65,11 @@ wordDict = ["leet","code"]
 print("Given string and word dictionary are: ", "String ->",s,"| Word Dictionary ->", wordDict)
 print(s, "can be segmented into a space-separated sequence of one or more dictionary words:", instance.wordBreak(s, wordDict))
 # Output: true
+
+# Algorithm:
+# 1. Initialize DP Array: Create a DP (Dynamic Programming) array with a length one more than s and set all elements to False. The last element is set to True to act as a base case.
+# 2. Iterate Backwards: Start from the end of the string s and move towards the beginning, trying to find if the current substring can form a word in wordDict.
+# 3. Check Substrings Against Dictionary: For each position in s, check all words in wordDict to see if any of them match a substring starting from the current position.
+# 4. Update DP Array: If a match is found, update the DP array at the current index to True, indicating that from this point to the end, the string can be broken down into dictionary words.
+# 5. Break Early: If the DP array at the current index is set to True, stop checking further words for this index because we've already found a valid combination.
+# 6. Return Result: The first element of the DP array indicates whether the entire string s can be segmented into words from wordDict.  
