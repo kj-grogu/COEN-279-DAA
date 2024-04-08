@@ -50,5 +50,5 @@ class LongestIncSubseq:
 instance = LongestIncSubseq()  
 nums = [10,9,2,5,3,7,101,18]
 print("Given set of numbers:", nums)
-print("length of longest incresing subsequence in given set of numbers is", instance.lengthOfLIS(nums))
+print("length of longest increasing subsequence in given set of numbers is", instance.lengthOfLIS(nums))
 # Output: 4

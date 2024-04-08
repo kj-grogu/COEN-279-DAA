@@ -67,3 +67,4 @@
 | 62  | <b>MaximumProductSubarray</b> <br>    | [152](https://leetcode.com/problems/maximum-product-subarray/)                              | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaximumProductSubarray.py)    |
 | 63  | <b>WordBreak</b> <br>                 | [139](https://leetcode.com/problems/word-break/)                                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/WordBreak.py)                 |
 | 64  | <b>LongestIncSubseq</b> <br>          | [300](https://leetcode.com/problems/longest-increasing-subsequence/)                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/LongestIncSubseq.py)          |
+| 65  | <b>PartitionEqualSubsetSum</b> <br>   | [416](https://leetcode.com/problems/partition-equal-subset-sum/)                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/PartitionEqualSubsetSum.py)   |
