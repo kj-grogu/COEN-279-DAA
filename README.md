@@ -74,3 +74,4 @@
 | 69  | <b>DesignCircularQueue</b> <br>       | [622](https://leetcode.com/problems/design-circular-queue/)                                 | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/DesignCircularQueue.py)       |
 | 70  | <b>MinOpsToReduceNTo0</b> <br>        | [2571](hhttps://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinOpsToReduceNTo0.py)        |
 | 71  | <b>RangeSumQuery2DImmutable</b> <br>  | [304](https://leetcode.com/problems/range-sum-query-2d-immutable/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/RangeSumQuery2DImmutable.py)  |
+| 72  | <b>BestTimeBuySellStock4</b> <br>  | [188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/BestTimeBuySellStock4.py)  |
