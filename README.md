@@ -82,3 +82,4 @@
 | 77  | <b>MaximalSquare</b> <br>             | [221](https://leetcode.com/problems/maximal-square/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaximalSquare.py)             |
 | 78  | <b>MaxPointsOnLine</b> <br>           | [149](https://leetcode.com/problems/max-points-on-a-line/)                                  | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxPointsOnLine.py)           |
 | 79  | <b>ShuffleAnArray</b> <br>            | [384](https://leetcode.com/problems/shuffle-an-array/)                                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ShuffleAnArray.py)            |
+| 80  | <b>SubArrProdLessThanK</b> <br>       | [713](https://leetcode.com/problems/subarray-product-less-than-k/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SubArrProdLessThanK.py)       |
