@@ -80,3 +80,4 @@
 | 75  | <b>MinimumKnightMoves</b> <br>        | [1197](https://leetcode.com/problems/ways-to-make-a-fair-array/)                            | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinimumKnightMoves.py)        |
 | 76  | <b>H_Index</b> <br>                   | [274](https://leetcode.com/problems/h-index/)                                               | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/H_Index.py)                   |
 | 77  | <b>MaximalSquare</b> <br>             | [221](https://leetcode.com/problems/maximal-square/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaximalSquare.py)             |
+| 77  | <b>MaxPointsOnLine</b> <br>           | [149](https://leetcode.com/problems/max-points-on-a-line/)                                  | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxPointsOnLine.py)           |
