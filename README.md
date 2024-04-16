@@ -83,3 +83,4 @@
 | 78  | <b>MaxPointsOnLine</b> <br>           | [149](https://leetcode.com/problems/max-points-on-a-line/)                                  | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxPointsOnLine.py)           |
 | 79  | <b>ShuffleAnArray</b> <br>            | [384](https://leetcode.com/problems/shuffle-an-array/)                                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ShuffleAnArray.py)            |
 | 80  | <b>SubArrProdLessThanK</b> <br>       | [713](https://leetcode.com/problems/subarray-product-less-than-k/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SubArrProdLessThanK.py)       |
+| 81  | <b>FindOrgArrPrefixXor</b> <br>       | [2433](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/FindOrgArrPrefixXor.py)       |
