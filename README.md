@@ -86,3 +86,4 @@
 | 81  | <b>FindOrgArrPrefixXor</b> <br>       | [2433](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/)                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/FindOrgArrPrefixXor.py)       |
 | 82  | <b>SnapshotArray</b> <br>             | [1146](https://leetcode.com/problems/snapshot-array/)                                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SnapshotArray.py)             |
 | 83  | <b>DoubleNumRepAsLL</b> <br>          | [2816](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/)         | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/DoubleNumRepAsLL.py)          |
+| 84  | <b>NumOpsToMakeNtwrkCntd</b> <br>     | [1319](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/NumOpsToMakeNtwrkCntd.py)     |
