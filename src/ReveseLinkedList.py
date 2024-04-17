@@ -89,7 +89,7 @@ node5 = ListNode(5)
 node1.next, node2.next, node3.next, node4.next = node2, node3, node4, node5
 print("Given List: ")
 print(instance.traveseList(node1))
-print("Reversed List: ")
+print("Reversed List:")
 print(instance.traveseList(instance.reverseList(node1)))
 
 
