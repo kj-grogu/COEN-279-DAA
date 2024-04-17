@@ -90,3 +90,4 @@
 | 85  | <b>ReverseWordsInStr</b> <br>         | [151](https://leetcode.com/problems/reverse-words-in-a-string/)                             | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ReverseWordsInStr.py)         |
 | 86  | <b>SortCharsByFrequency</b> <br>      | [451](https://leetcode.com/problems/sort-characters-by-frequency/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SortCharsByFrequency.py)      |
 | 87  | <b>ReverseLinkedListII</b> <br>       | [92](https://leetcode.com/problems/reverse-linked-list-ii/)                                 | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/ReverseLinkedListII.py)       |
+| 88  | <b>FibonacciNumber</b> <br>           | [509](https://leetcode.com/problems/fibonacci-number/description/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/FibonacciNumber.py)           |
