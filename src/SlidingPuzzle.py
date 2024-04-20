@@ -49,10 +49,9 @@ class SlidingPuzzle:
         x, y = -1, -1
         for i in range(len(board)):
             for j in range(len(board[0])):
-                if board[i][j] == "0":
+                if board[i][j] == 0:
                     x, y = i, j
                     break
-
         # call recursive dfs
         self.dfs(board, x, y, 0)
 
@@ -61,17 +60,16 @@ class SlidingPuzzle:
     def dfs(self, board, i, j, steps):
         if self.isSolved(board):
             self.ans = min(self.ans, steps)
+            return    
 
         hash = self.createHash(board)
 
         if self.visited[hash] < steps:
             return
-        
         self.visited[hash] = steps
 
         for d_i, d_j in self.directions:
             new_i, new_j = i + d_i, j + d_j
-
             if 0 <= new_i < len(board) and 0 <= new_j < len(board[0]):
                 # swap
                 board[i][j], board[new_i][new_j] = board[new_i][new_j], board[i][j]
@@ -80,10 +78,9 @@ class SlidingPuzzle:
                 # reset swap:
                 board[new_i][new_j], board[i][j]  = board[i][j], board[new_i][new_j]
 
-
     
     def isSolved(self, board):
-        if (board[0][0] == "1" and board[0][1] == "2" and board[0][2] == "3" and board[1][0] == "4" and board[1][1] == "5" and board[1][2] == "0"):
+        if (board[0][0] == 1 and board[0][1] == 2 and board[0][2] == 3 and board[1][0] == 4 and board[1][1] == 5 and board[1][2] == 0):
             return True
         return False
 
@@ -94,7 +91,11 @@ class SlidingPuzzle:
                 hash.append(str(board[i][j]))
         return "".join(hash)
     
+# Complexity:
+# T: O(4^(m × n)), where m and n are the dimensions of the board
+# S: O(m × n! × k), where k is the average size of the hash used to store the board configuration.
 
+        
 
 # Testing:
 instance = SlidingPuzzle()
