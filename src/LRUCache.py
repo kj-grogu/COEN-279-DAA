@@ -76,7 +76,7 @@ class LRUCache:
             return self.cache[key].val
         return -1
 
-    # To put into the cache in not present and mark as MRU or just mark as MRU(that is to put to the right of list)
+    # To put into the cache if not present and mark as MRU or just mark as MRU(that is to put to the right of list)
     def put(self, key: int, value: int) -> None:
         if key in self.cache:
             self.remove(self.cache[key])
