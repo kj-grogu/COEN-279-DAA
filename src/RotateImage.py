@@ -63,3 +63,7 @@ print("After 90 degree rotation is: ")
 for i in matrix:
     print('\t'.join(map(str, i)))
 
+# 	0	1	2                                           	0	1	2                                               0	1	2
+# 0	1	2	3       Step 1:                             0	1	4	7       Step 2:                              0	7	4	1
+# 1	4	5	6       Matrix[i][j] => Matrix[j][i]        1	2	5	8       Reverse cols: 0 to 2 To 2 to 0       1	8	5	2
+# 2	7	8	9                                           2	3	6	9                                            2	9	6	3
