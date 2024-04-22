@@ -97,3 +97,4 @@
 | 92  | <b>IntersectionOfTwoLL</b> <br>       | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/)                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/IntersectionOfTwoLL.py)       |
 | 93  | <b>LastStoneWeight</b> <br>           | [1046](https://leetcode.com/problems/last-stone-weight/)                                    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/LastStoneWeight.py)           |
 | 94  | <b>SearchRotatedSortedArr</b> <br>    | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/)                         | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SearchRotatedSortedArr.py)    |
+| 95  | <b>KthLargestElementArray</b> <br>    | [215](https://leetcode.com/problems/kth-largest-element-in-an-array/)                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/KthLargestElementArray.py)    |

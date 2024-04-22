@@ -36,25 +36,36 @@ from typing import Optional
 
 class SearchRotatedSortedArr:
     def search(self, nums: List[int], target: int) -> int:
-        l = 0
-        r = len(nums) - 1
-
-        while l <= r:
-            mid = l + (r-l) // 2
-            if target == nums[mid]:
-                return mid
-            elif nums[mid] < nums[r]:
-                if target > nums[mid] and target <= nums[r]:
-                    l = mid + 1
-                else:
-                    r = mid - 1
-            else:
-                if target < nums[mid] and target >= nums[l]:
-                    r = mid - 1
-                else:
-                    l = mid + 1
+       l = 0
+       r = len(nums) - 1
+       
+       while l <= r:
+        mid = l + (r - l) // 2
         
-        return -1
+        # Step 1: if target is equal to num at mid
+        if nums[mid] == target:
+            return mid
+        
+        # Step 2: if nums array to right of mid is sorted
+        elif nums[mid] < nums[r]:
+            # Step 2.1 : if target is in sorted right portion of nums from mid
+            if nums[mid] < target <= nums[r]:
+                l = mid + 1
+            # Step 2.2 : if target is in un-sorted left portion of nums from mid   
+            else:
+                r = mid - 1
+        
+		# Step 3: if nums array to left of mid is sorted
+        else:
+            # Step 3.1 : if target is in sorted left portion of nums from mid
+            if nums[l] <= target < nums[mid]:
+                r = mid - 1
+            # Step 3.2 : if target is in un-sorted right portion of nums from mid
+            else:
+                l = mid + 1
+        
+        # step 4: if target not found in nums array return -1
+       return -1
 
 # Complexity:
 # T: O(Lg N)
