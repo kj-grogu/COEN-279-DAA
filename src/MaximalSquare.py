@@ -23,12 +23,9 @@
 
 
 from ast import List
-import collections
-import heapq
-import pprint
 from typing import List
 from typing import Optional
-import math
+
 
 class MaximalSquare:
     # Bottom up approach

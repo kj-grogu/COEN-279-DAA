@@ -31,11 +31,11 @@ from typing import Optional
 class BestTimeBuySellStock4:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         n = len(prices)
-        # case 1: if k == 0 or n <= 1
+        # case 1: if k == 0 or n <= 1, that is no transactions can be done
         if k == 0 or n <= 1:
             return 0
         
-        # case 2: if k >= n
+        # case 2: if k >= n, we buy on all increasing curve to maximize profit
         if 2 * k >= n:
             res = 0
             for i in range(1, n):
@@ -43,8 +43,9 @@ class BestTimeBuySellStock4:
                     res += prices[i] - prices[i-1]
             return res
 
-        # case 3: 1 <= k < n:
+        # case 3: 1 <= k < n: cal profit based on each day price for all possible 2K transactions 
         dp = [0] * (2 * k)
+        # dp intialization
         dp[0] = -prices[0]
         for i in range(1, 2 * k):
             if i % 2: # Sell
@@ -52,6 +53,7 @@ class BestTimeBuySellStock4:
             else: # Buy
                 dp[i] = float('-inf')
 
+        # profit calc at all states
         for i in range(n):
             for j in range(2 * k):
                 if j == 0:
@@ -61,6 +63,7 @@ class BestTimeBuySellStock4:
                 else: # Buy
                     dp[j] = max(dp[j], dp[j - 1] - prices[i])
 
+        # total profit present at last cell of dp
         return dp[2 * k - 1]
 
 # Complexity:
