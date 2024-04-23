@@ -22,7 +22,7 @@ import collections
 from typing import List
 
 # 1. create a map to store slope vs count mapping -> tells which points have this slope
-# 2. This map will be for each the points to get the longest line.
+# 2. This map will be for each the points to get the longest line. As one point can be on multiple lines
 # 3. points with same x-axis val will have a slope of inf
 class MaxPointsOnLine:
     def maxPoints(self, points: List[List[int]]) -> int:

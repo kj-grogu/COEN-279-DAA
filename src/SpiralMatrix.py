@@ -48,6 +48,11 @@ class SpiralMatrix:
             dir = (dir + 1) % 4
         return res
 
+
+    # complexity:
+    # T: O(N * M)
+    # S: O(N * M), counting res
+
 # Testing
 instance = SpiralMatrix()
 matrix = [[1, 2, 3], 

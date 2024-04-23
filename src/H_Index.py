@@ -50,12 +50,13 @@ from typing import List
 from typing import Optional
 
 class H_Index:
+    # To find: a value H where H is no.of citations such that there are H or more papers with H or more citations
     def hIndex(self, citations: List[int]) -> int:
         totalPapers = len(citations) 
-        citationToPaper = [0] * (totalPapers + 1) # Buckets
+        citationToPaper = [0] * (totalPapers + 1) # Buckets; + 1 to include 0 citations till total no of papers
         
         for c in citations:
-            if c > totalPapers:
+            if c > totalPapers: # papers with larger citations than no. of papers can easily be accomodated under highest bucket for citations
                 citationToPaper[-1] += 1
             else:
                 citationToPaper[c] += 1

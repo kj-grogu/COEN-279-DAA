@@ -99,3 +99,4 @@
 | 94  | <b>SearchRotatedSortedArr</b> <br>    | [33](https://leetcode.com/problems/search-in-rotated-sorted-array/)                         | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SearchRotatedSortedArr.py)    |
 | 95  | <b>KthLargestElementArray</b> <br>    | [215](https://leetcode.com/problems/kth-largest-element-in-an-array/)                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/KthLargestElementArray.py)    |
 | 96  | <b>CopyLLWithRandomPtr</b> <br>    | [138](https://leetcode.com/problems/copy-list-with-random-pointer/)                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CopyLLWithRandomPtr.py)    |
+| 97  | <b>SingleElemInSortedArr</b> <br>    | [540](https://leetcode.com/problems/single-element-in-a-sorted-array/)                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SingleElemInSortedArr.py)    |
