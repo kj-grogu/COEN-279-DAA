@@ -101,3 +101,4 @@
 | 96  | <b>CopyLLWithRandomPtr</b> <br>       | [138](https://leetcode.com/problems/copy-list-with-random-pointer/)                         | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CopyLLWithRandomPtr.py)       |
 | 97  | <b>SingleElemInSortedArr</b> <br>     | [540](https://leetcode.com/problems/single-element-in-a-sorted-array/)                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/SingleElemInSortedArr.py)     |
 | 98  | <b>BestTimeBuySellStock_1</b> <br>    | [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                       | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/BestTimeBuySellStock_1.py)    |
+| 99  | <b>TwoSum_Linear</b> <br>             | [1](https://leetcode.com/problems/two-sum/)                                                 | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/TwoSum_Linear.py)             |
