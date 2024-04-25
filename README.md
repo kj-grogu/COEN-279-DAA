@@ -104,3 +104,4 @@
 | 99  | <b>TwoSum_Linear</b> <br>             | [1](https://leetcode.com/problems/two-sum/)                                                 | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/TwoSum_Linear.py)             |
 | 100 | <b>GroupAnagrams</b> <br>             | [49](https://leetcode.com/problems/group-anagrams/)                                         | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/GroupAnagrams.py)             |
 | 101 | <b>BreakPalindrome</b> <br>           | [1328](https://leetcode.com/problems/break-a-palindrome/)                                   | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/BreakPalindrome.py)           |
+| 102 | <b>FindPivotIndex</b> <br>            | [724](https://leetcode.com/problems/find-pivot-index/)                                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/FindPivotIndex.py)            |
