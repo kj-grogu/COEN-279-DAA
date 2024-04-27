@@ -42,6 +42,7 @@ class ReverseWordsInStr:
         start = -1
         i = 0
         while i < len(s):
+            # check for space before is must:
             if s[i] != " ":
                 start = i
                 while i < len(s) and s[i] != " ":

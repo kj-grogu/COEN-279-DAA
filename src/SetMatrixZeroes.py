@@ -27,34 +27,26 @@ from typing import List
 
 
 class SetMatrixZeroes:
-    def setZeroes(self, matrix: List[List[int]]) -> None:
-        """
-        Do not return anything, modify matrix in-place instead.
-        """
-        lRow = len(matrix)
-        lCol = len(matrix[0])
-        row = 1
-        for i in range(lRow):
-            for j in range(lCol):
-                if i == 0 and matrix[i][j] == 0:
-                    row = 0
-                    matrix[0][j] = 0
-                elif matrix[i][j] == 0:
-                    matrix[i][0] = 0
-                    matrix[0][j] = 0
+        def setZeroes(self, matrix: List[List[int]]) -> None:
+            row_0 = [0] * len(matrix)
+            col_0 = [0] * len(matrix[0])
 
-        for i in range(1, lRow):
-            for j in range(1, lCol):
-                if matrix[i][0] == 0 or matrix[0][j] == 0:
-                    matrix[i][j] = 0
+            for i in range(len(matrix)):
+                for j in range(len(matrix[0])):
+                    if matrix[i][j] == 0:
+                        row_0[i] = -1
+                        col_0[j] = -1
 
-        if matrix[0][0] == 0:
-            for i in range(lRow):
-                matrix[i][0] = 0
+            for i in range(len(matrix)):
+                for j in range(len(matrix[0])):
+                    if row_0[i] == -1:
+                        matrix[i][j] = 0
+                    if col_0[j] == -1:
+                        matrix[i][j] = 0
 
-        if row == 0:
-            for j in range(lCol):
-                matrix[0][j] = 0
+# Complexity:
+# T: O(M * N)
+# S: O(M + N)
 
 
 # Testing
