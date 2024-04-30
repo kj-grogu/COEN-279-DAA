@@ -111,3 +111,4 @@
 | 106 | <b>LngstSubstrWoutRptngChars</b> <br> | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/LngstSubstrWoutRptngChars.py) |
 | 107 | <b>TrappingRainWater</b> <br>         | [42](https://leetcode.com/problems/trapping-rain-water/)                                    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/TrappingRainWater.py)         |
 | 108 | <b>MajorityElement</b> <br>           | [169](https://leetcode.com/problems/majority-element/)                                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MajorityElement.py)           |
+| 108 | <b>IsSubsequence</b> <br>             | [392](https://leetcode.com/problems/is-subsequence/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/IsSubsequence.py)             |
