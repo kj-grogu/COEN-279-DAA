@@ -112,3 +112,4 @@
 | 107 | <b>TrappingRainWater</b> <br>         | [42](https://leetcode.com/problems/trapping-rain-water/)                                    | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/TrappingRainWater.py)         |
 | 108 | <b>MajorityElement</b> <br>           | [169](https://leetcode.com/problems/majority-element/)                                      | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MajorityElement.py)           |
 | 109 | <b>IsSubsequence</b> <br>             | [392](https://leetcode.com/problems/is-subsequence/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/IsSubsequence.py)             |
+| 110 | <b>MergeSortedArray</b> <br>             | [88](https://leetcode.com/problems/merge-sorted-array/)                                        | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MergeSortedArray.py)             |
