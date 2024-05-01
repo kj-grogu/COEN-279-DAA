@@ -48,7 +48,7 @@ class MinAddMakeParensValid:
 # Testing:
 instance = MinAddMakeParensValid()
 s = "())"
-print("The given parantheses strin is:", s)
+print("The given parantheses string is:", s)
 print("The no of parantheses to be added to make the string a valid parantheses is:", instance.minAddToMakeValid(s))
 # Output: 1
 
