@@ -34,21 +34,26 @@ from typing import Optional
 
 class HouseRobber:
     def rob(self, nums: List[int]) -> int:
-        # declare and initialize vars to keep track of previous and previous to previos loot
-        prev = prev_prev = 0
+ 
+        prev = prev_prev = best = 0  # Initialize variables to store the results of subproblems:
+                                    # prev - the best result up to the previous house,
+                                    # prev_prev - the best result up to the house before the previous one,
+                                    # best - the best result found so far.
 
-        # iterate over nums, to calc prev and prev_prev
-        for num in nums:
-            best = max(num + prev_prev, prev)
+        for num in nums:  # Loop through each amount of money in the list.
+            best = max(num + prev_prev, prev)  # Calculate the maximum money that can be robbed up to the current house:
+                                               # either rob this house and the best before the previous one,
+                                               # or don't rob this house and take the best of the previous.
 
-            prev, prev_prev = best, prev
-        
-        # return max of prev, prev_prev
-        return max(prev, prev_prev)
+            prev, prev_prev = best, prev  # Update the values of prev and prev_prev for the next iteration:
+                                          # prev_prev becomes the previous best,
+                                          # and prev becomes the current best.
+
+        return best  # Return the maximum money that can be robbed.
 
 # Complexity:
-# T: O(N)
-# S: O(1)
+# Time: O(N) - The function iterates over each house in the list exactly once.
+# Space: O(1) - Uses constant space to keep track of the results for previous houses.
     
 # Testing:
 instance = HouseRobber()
