@@ -118,3 +118,4 @@
 | 113 | <b>LongestIncreasingPathMatrix</b> <br> | [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)                   | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/LongestIncreasingPathMatrix.py) |
 | 114 | <b>MinOpsToMakeArrEmpty</b> <br>        | [2870](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)     | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinOpsToMakeArrEmpty.py)        |
 | 115 | <b>MaxDepthBinaryTree</b> <br>          | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxDepthBinaryTree.py)          |
+| 116 | <b>DiameterOfBinaryTree</b> <br>          | [543](https://leetcode.com/problems/diameter-of-binary-tree/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/DiameterOfBinaryTree.py)          |

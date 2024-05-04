@@ -80,6 +80,12 @@ class InvertBinaryTree:
 
         preorder_traversal(root)
         print()
+
+# Complexity:
+# T: O(N) - The function must visit every node in the tree once.
+# S: - Best Case: ( O(log n)) — When the tree is balanced.
+ # - Worst Case: ( O(n) ) — When the tree is completely unbalanced.
+        
 # Testing
 instance = InvertBinaryTree()
 values = [4,2,7,1,3,6,9]  # Replace with your binary tree values

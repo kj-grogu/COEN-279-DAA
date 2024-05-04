@@ -68,7 +68,7 @@ class MaxDepthBinaryTree:
 
 # Complexity:
 # T: O(N)
-# S: O(N), if recurrsive call stack included
+# S: O(N) in the worst case (skewed tree) and O(logn) in the best case (balanced tree).
 
 # Testing:
 instance = MaxDepthBinaryTree()
