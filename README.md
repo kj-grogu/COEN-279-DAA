@@ -119,3 +119,4 @@
 | 114 | <b>MinOpsToMakeArrEmpty</b> <br>        | [2870](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/)     | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinOpsToMakeArrEmpty.py)        |
 | 115 | <b>MaxDepthBinaryTree</b> <br>          | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxDepthBinaryTree.py)          |
 | 116 | <b>DiameterOfBinaryTree</b> <br>          | [543](https://leetcode.com/problems/diameter-of-binary-tree/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/DiameterOfBinaryTree.py)          |
+| 117 | <b>BalancedBinaryTree</b> <br>          | [110](https://leetcode.com/problems/balanced-binary-tree/)                          | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/BalancedBinaryTree.py)          |        |
