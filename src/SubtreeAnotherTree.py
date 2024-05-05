@@ -59,22 +59,36 @@ class SubTreeAnotherTree:
         preorder_traversal(root)
         print()
     
-    def isSubTree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
         if not subRoot:
-            return True
+            return True  # An empty tree is a subtree of any tree.
+
         if not root:
-            return False
-        if self.isSameTree(root, subRoot):
+            return False  # If main tree is empty but subtree is not, then it's not a subtree.
+        
+        # Check if trees rooted at current nodes are identical.
+        if self.isSame(root, subRoot):
             return True
-        return (self.isSubTree(root.left, subRoot) or self.isSubTree(root.right, subRoot))
+        
+        # Recursively check the left and right children of the current node in the main tree.
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
     
-    def isSameTree(self, p, q):
-        if (not p and not q):
-            return True
-        if (not p or not q):
-            return False
-        if p.val == q.val:
-            return (self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right))
+    def isSame(self, root1, root2):
+        if not root1 and not root2:
+            return True  # Both trees are empty, hence they are the same.
+
+        if not root1 or not root2 or root1.val != root2.val:
+            return False  # If one is empty or the values do not match, trees are not the same.
+
+        # Recursively check if the left and right subtrees are the same.
+        return self.isSame(root1.left, root2.left) and self.isSame(root1.right, root2.right)
+
+# Complexity:
+# T: O(m*n), where m is the number of nodes in root and n is the number of nodes in subRoot.
+#                  For every node in root, isSame may be called to compare it against subRoot.
+# S: O(min(m, n)) in the worst case due to the recursion stack,
+#                   where m and n are the depths of the root and subRoot trees, respectively.
+    
 
 # Testing
 instance = SubTreeAnotherTree()
