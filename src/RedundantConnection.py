@@ -1,6 +1,3 @@
-from ast import List
-from typing import List
-class RedundantConnection:
 # 684. Redundant Connection
 # https://leetcode.com/problems/redundant-connection/
 
@@ -28,6 +25,9 @@ class RedundantConnection:
 # There are no repeated edges.
 # The given graph is connected.
 
+from ast import List
+from typing import List
+class RedundantConnection:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         par = [i for i in range(len(edges) + 1)] # creating a parent array with elements for all nodes from 1 to n in the graph, the array is 1 element larger than the edges as the array will have 0 element as well, which we will not use.
         # Also don't forget that that the lenght of the edges list is equal to n nodes as there is an extra edge creating the cycle, which we need to find.
@@ -61,6 +61,11 @@ class RedundantConnection:
             if not union(n1, n2): #if the two nodes of an edge in the graph are already connected directly of through their parents then this edge is an redundant edge and can be returned.
                 return [n1, n2]
 
+# Complexity:
+# Time (T): O(E * α(N)), where E is the number of edges and α(N) is the inverse Ackermann function,
+# which is practically constant for any feasible input size.
+# Space (S): O(N), where N is the number of vertices in the graph, for storing the parent and rank arrays.
+            
 # Testing
 instance = RedundantConnection()
 edges = [[1,2],[1,3],[2,3]]
