@@ -1,7 +1,3 @@
-from ast import List
-from typing import List
-
-class GraphValidTree:
 # 261. Graph Valid Tree
 # https://leetcode.com/problems/graph-valid-tree/
 # You have a graph of n nodes labeled from 0 to n - 1. 
@@ -25,6 +21,10 @@ class GraphValidTree:
 # ai != bi
 # There are no self-loops or repeated edges.
 
+from ast import List
+from typing import List
+
+class GraphValidTree:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
         # What is a valid tree:
         # 1. A graph with no cycles in it.
@@ -39,6 +39,9 @@ class GraphValidTree:
             adj[n1].append(n2) # appending in both nodes as the graph is undirected.
             adj[n2].append(n1)
 
+        # prev => is passed and used to detect false positives for cycles, as 0 -> 1 -> 4 
+        # here we pass 0 as prev so as to not go through it again, as it's a connection of 1)
+        # To make sure we don't count a cycle 0 -> 1 -> 0, and return False
         visit = set()
         def dfs(i, prev):
             if i in visit:
@@ -54,6 +57,10 @@ class GraphValidTree:
 
         return dfs(0, -1) and n == len(visit) # dfs: starting with 0, and default prev value for root node 0 is -1.
             # dfs checks for cycle and 'n == len(visit)' checks if all the nodes are connected or not.
+
+# Complexity:
+# Time (T): O(V + E) - where V is the number of vertices and E is the number of edges.
+# Space (S): O(V + E) - due to the adjacency list and the recursion stack in the worst case.
 
 # Testing
 instance = GraphValidTree()
