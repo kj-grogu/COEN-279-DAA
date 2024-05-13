@@ -22,7 +22,7 @@
 
 
 import collections
-from typing import Optional
+from typing import List, Optional
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -32,32 +32,39 @@ class TreeNode:
         self.right = right
 
 class BinaryTreeRightSideView:
+     # Function to get the right side view of a binary tree.
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        # If the tree is empty, return an empty list.
         if not root:
             return []
 
-        bfs_queue = collections.deque([root])
+        # Initialize a queue with the root node to manage the level order traversal.
+        queue = collections.deque([root])
+        # List to store the rightmost elements at each level.
         res = []
 
-        while bfs_queue:
-            level_len = len(bfs_queue)
+        # Continue until there are no more nodes to process in the queue.
+        while queue:
+            # The last node's value in the current level is appended to the result list.
+            res.append(queue[-1].val)
 
-            for i in range(level_len):
-                node = bfs_queue.popleft()
-                if i == level_len - 1:
-                    res.append(node.val)
-
+            # Process each node at the current level.
+            for _ in range(len(queue)):
+                node = queue.popleft()  # Remove the node from the front of the queue.
+                # If the node has a left child, add it to the queue.
                 if node.left:
-                    bfs_queue.append(node.left)
-                
+                    queue.append(node.left)
+                # If the node has a right child, add it to the queue.
                 if node.right:
-                    bfs_queue.append(node.right)
+                    queue.append(node.right)
         
+        # Return the list containing the rightmost element from each level.
         return res
 
 # Complexity:
-# T: O(N)
-# S: O(N) , size of the queue
+# T: O(N) - The algorithm traverses each node exactly once, where N is the number of nodes in the tree.
+# S: O(N) - The queue may contain up to the maximum width of the tree, 
+# which can be all nodes at its last level in the worst case.
 
 # Testing:
 instance = BinaryTreeRightSideView()
