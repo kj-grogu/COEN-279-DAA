@@ -32,7 +32,7 @@ class TreeNode:
         self.left = left
         self.right = right
         
-class Solution:
+class CnsrtBTFrmPreInorderTrav:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         if not preorder and not inorder:
             return None
@@ -50,6 +50,20 @@ class Solution:
 #           This occurs when the tree is skewed, 
 #           and each recursive call involves iterating through a significant portion of the inorder list to find the root's position.
 # S: O(N) No of nodes created for constructing the tree
+    
+# Testing:
+instance = CnsrtBTFrmPreInorderTrav()
+preorder = [3,9,20,15,7]
+inorder = [9,3,15,20,7]
+# Output: [3,9,20,null,null,15,7]
+print("The pre-order traversal of tree is")
+print(preorder)
+print("The inorder traversal of tree is:")
+print(inorder)
+print("The contructed binary tree from the pre and in order traversal of it is:")
+print(instance.buildTree(preorder, inorder))
+
+
 
         
 

@@ -41,6 +41,7 @@ class Codec:
         :rtype: str
         """
         res = []
+        # dfs method to traverse tree in pre - order and contruct the serialized pre - order string of binary tree.
         def dfs_serialize(node):
             if not node:
                 res.append("N")
@@ -65,6 +66,7 @@ class Codec:
         vals = data.split(",")
         self.i = 0
 
+        # dfs method to recontruct a binary tree from its pre-order traversal serialized string.
         def dfs_deserialize():
             if vals[self.i] == "N":
                 self.i += 1
@@ -88,3 +90,19 @@ class Codec:
 # ser = Codec()
 # deser = Codec()
 # ans = deser.deserialize(ser.serialize(root))
+    
+# Testing:
+instance = Codec()
+node5 = TreeNode(5)
+node4 = TreeNode(4)
+node3 = TreeNode(3)
+node3.left, node3.right = node4, node5
+node2 = TreeNode(2)
+node1 = TreeNode(1)
+node1.left, node1.right = node2, node3
+print("The serialized version of the given tree is:")
+data = instance.serialize(node1)
+print(data)
+print("The deserialized tree from pre-order serialized version of tree is:")
+print(instance.deserialize(data))
+# Output: [1,2,3,null,null,4,5]
