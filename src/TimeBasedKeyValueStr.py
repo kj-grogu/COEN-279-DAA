@@ -41,19 +41,21 @@
 import collections
 
 
-class TimeBasedKeyValueStr:
-
+class TimeMap:
     def __init__(self):
+        # Initialize two dictionaries to store values and timestamps
         self.value_dict = collections.defaultdict(list)
         self.time_dict = collections.defaultdict(list)
         
 
     def set(self, key: str, value: str, timestamp: int) -> None:
+        # Append the value and its corresponding timestamp to the respective lists for the given key
         self.value_dict[key].append(value)
         self.time_dict[key].append(timestamp)
         
 
     def get(self, key: str, timestamp: int) -> str:
+        # Binary search to find the value corresponding to the given timestamp for the key
         l = 0
         r = len(self.time_dict.get(key, [])) - 1
 
@@ -61,17 +63,22 @@ class TimeBasedKeyValueStr:
             mid = l + (r - l) // 2
 
             if self.time_dict[key][mid] == timestamp:
+                # If exact timestamp is found, return the corresponding value
                 return self.value_dict[key][mid]
             elif self.time_dict[key][mid] > timestamp:
+                # If mid timestamp is greater, search in the left half
                 r = mid - 1
             else:
+                # If mid timestamp is less, search in the right half
                 l = mid + 1
 
+        # If no exact match, return the closest previous value or empty string if none exists
         return self.value_dict[key][r] if r >= 0 else ""
 
-# Complexity:
-# T: O(lg N)
-# S: O(1)
+# Time Complexity:
+# - set: O(1) for each set operation, as appending to a list is an O(1) operation.
+# - get: O(log T) where T is the number of timestamps associated with a key.
+#        This complexity arises because the function performs a binary search over the timestamps.
         
 
 
@@ -79,3 +86,15 @@ class TimeBasedKeyValueStr:
 # obj = TimeMap()
 # obj.set(key,value,timestamp)
 # param_2 = obj.get(key,timestamp)
+    
+# Testing:
+instance = TimeMap()
+input = ["TimeMap", "set", "get", "get", "set", "get", "get"]
+params = [[], ["foo", "bar", 1], ["foo", 1], ["foo", 3], ["foo", "bar2", 4], ["foo", 4], ["foo", 5]]
+for i in range(len(input)):
+    if input[i] == "set":
+        print("put:",instance.set(params[i][0], params[i][1], params[i][2]))
+    if input[i] == "get":
+        print("get: ", instance.get(params[i][0], params[i][1]))
+# Output
+# [null, null, "bar", "bar", null, "bar2", "bar2"]
