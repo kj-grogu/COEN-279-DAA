@@ -38,26 +38,32 @@ from typing import List
 
 class FindMinRotatedSrtdArr:
     def findMin(self, nums: List[int]) -> int:
-        if len(nums) == 1 or nums[0] < nums[-1]:
+        # Edge case: if the array has only one element or the array is not rotated (first element <= last element),
+        # the first element is the minimum.
+        if len(nums) == 1 or nums[0] <= nums[-1]:
             return nums[0]
-        
-        l = 0
-        r = len(nums) - 1
 
+        l, r = 0, len(nums) - 1
         while l <= r:
-            mid = l + (r - l) // 2
+            mid = l + (r - l) // 2  # Calculate mid to avoid overflow.
 
+            # If the mid element is less than its previous element, mid is the minimum.
             if nums[mid] < nums[mid - 1]:
                 return nums[mid]
-            elif nums[mid] > nums[mid + 1]:
-                return nums[mid + 1]
+            # If the mid element is less than the rightmost element, the minimum is in the left half.
+            elif nums[mid] < nums[r]:
+                r = mid - 1
+            # Otherwise, the minimum is in the right half.
             else:
-                if nums[mid] < nums[r]:
-                    r = mid - 1
-                else:
-                    l = mid + 1
+                l = mid + 1
 
 # Complexity:
-# T: O(lg N)
+# T: O(log n), where n is the number of elements in the array.
 # S: O(1)
-        
+
+# Testing:
+instance = FindMinRotatedSrtdArr()
+nums = [4,5,6,7,0,1,2]
+print("Given List of nums is:", nums)
+print("Minimum element in the given list of numbers is:", instance.findMin(nums))
+# Output: 0
