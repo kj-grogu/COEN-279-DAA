@@ -140,3 +140,5 @@
 | 135  | <b>KokoEatingBananas</b> <br>        | [875](https://leetcode.com/problems/koko-eating-bananas/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/KokoEatingBananas.py)        |
 | 136  | <b>MinNumStepsMake2StringsAnagram</b> <br>        | [1347](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinNumStepsMake2StringsAnagram.py)        |
 | 137  | <b>BuddyStrings</b> <br>        | [859](https://leetcode.com/problems/buddy-strings/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/BuddyStrings.py)        |
+| 138  | <b>AnalyzeUsrSiteVisitPattern</b> <br>        | [1152](https://leetcode.com/problems/analyze-user-website-visit-pattern/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/AnalyzeUsrSiteVisitPattern.py)        |
+
