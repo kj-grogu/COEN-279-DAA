@@ -141,4 +141,5 @@
 | 136  | <b>MinNumStepsMake2StringsAnagram</b> <br>        | [1347](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MinNumStepsMake2StringsAnagram.py)        |
 | 137  | <b>BuddyStrings</b> <br>        | [859](https://leetcode.com/problems/buddy-strings/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/BuddyStrings.py)        |
 | 138  | <b>AnalyzeUsrSiteVisitPattern</b> <br>        | [1152](https://leetcode.com/problems/analyze-user-website-visit-pattern/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/AnalyzeUsrSiteVisitPattern.py)        |
+| 139  | <b>MaxProfitJobScheduling</b> <br>        | [1235](https://leetcode.com/problems/maximum-profit-in-job-scheduling/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxProfitJobScheduling.py)        |
 
