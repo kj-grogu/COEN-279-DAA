@@ -142,4 +142,4 @@
 | 137  | <b>BuddyStrings</b> <br>        | [859](https://leetcode.com/problems/buddy-strings/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/BuddyStrings.py)        |
 | 138  | <b>AnalyzeUsrSiteVisitPattern</b> <br>        | [1152](https://leetcode.com/problems/analyze-user-website-visit-pattern/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/AnalyzeUsrSiteVisitPattern.py)        |
 | 139  | <b>MaxProfitJobScheduling</b> <br>        | [1235](https://leetcode.com/problems/maximum-profit-in-job-scheduling/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/MaxProfitJobScheduling.py)        |
-
+| 140  | <b>CntAllValidPickupDeliveryOptions</b> <br>        | [1359](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/                                | [Solution](https://github.com/kj-grogu/COEN-279-DAA/blob/main/src/CntAllValidPickupDeliveryOptions.py)        |
