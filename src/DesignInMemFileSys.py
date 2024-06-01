@@ -45,6 +45,7 @@
 # 1 <= content.length <= 50
 # At most 300 calls will be made to ls, mkdir, addContentToFile, and readContentFromFile.
 
+import bisect
 import collections
 from typing import List
 
@@ -62,7 +63,7 @@ class FileSystem:
             return [path.split("/")[-1]]
         # Otherwise, return the list of files/directories in the given path
         else:
-            return sorted(self.paths[path])  # Ensure output is sorted
+            return self.paths[path]
 
     def mkdir(self, path: str) -> None:
         directories = path.split("/")
@@ -71,31 +72,35 @@ class FileSystem:
             curDirPath = "/".join(directories[:i]) or "/"
             # Insert directory in a sorted manner if not already present
             if curDirPath not in self.paths or directories[i] not in self.paths[curDirPath]:
-                self.insert_sorted(self.paths[curDirPath], directories[i])
-                # OR:
-                # bisect.insort(self.paths[curDirPath], directories[i])
-
-    def insert_sorted(self, lst, item):
-        # Custom binary search insertion to maintain sorted order
-        lo, hi = 0, len(lst)
-        while lo < hi:
-            mid = (lo + hi) // 2
-            if lst[mid] < item:
-                lo = mid + 1
-            else:
-                hi = mid
-        lst.insert(lo, item)
+                bisect.insort(self.paths[curDirPath], directories[i])
 
     def addContentToFile(self, filePath: str, content: str) -> None:
         # If file does not exist, create the path first
         if filePath not in self.files:
-            self.mkdir("/".join(filePath.split("/")[:-1]))  # Exclude the file itself in the path
+            self.mkdir(filePath) 
         # Append content to the file
         self.files[filePath] += content
         
     def readContentFromFile(self, filePath: str) -> str:
         # Return the content of the file
         return self.files[filePath]
+
+# Your FileSystem object will be instantiated and called as such:
+# obj = FileSystem()
+# param_1 = obj.ls(path)
+# obj.mkdir(path)
+# obj.addContentToFile(filePath, content)
+# param_4 = obj.readContentFromFile(filePath)
+
+# Complexity:
+# Time Complexity:
+# - `ls` function: O(k log k) where k is the number of items in the directory, due to sorting.
+# - `mkdir` function: O(m log n) per directory insertion where m is the number of path segments and n is the number of directories in the parent directory.
+# - `insert_sorted` function: O(log n) for finding the position and O(n) for insertion, leading to an overall O(n) complexity.
+# - `addContentToFile` and `readContentFromFile` functions: O(1) for dictionary operations.
+
+# Space Complexity:
+# - The space complexity is O(p + f) where p is the total number of paths stored and f is the total content size of files.
 
 # Your FileSystem object will be instantiated and called as such:
 # obj = FileSystem()
