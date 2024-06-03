@@ -26,40 +26,57 @@
 
 from typing import List
 
-
 class CountSubIslands:
     def countSubIslands(self, grid1: List[List[int]], grid2: List[List[int]]) -> int:
+        # Get the number of rows and columns in the grid
         self.rows, self.cols = len(grid1), len(grid1[0])
+        # Set to track visited cells
         self.visited = set()
-        self.directions = [(0,1), (1, 0), (-1, 0), (0, -1)]
+        # Define possible directions for movement (right, down, up, left)
+        self.directions = [(0, 1), (1, 0), (-1, 0), (0, -1)]
 
         count = 0
+        # Iterate over each cell in grid2
         for r in range(self.rows):
             for c in range(self.cols):
-                if grid2[r][c] and (r,c) not in self.visited and self.dfs(r, c, grid1, grid2, True):
-                    count += 1
+                # If the cell is part of an island in grid2 and not yet visited
+                if grid2[r][c] and (r, c) not in self.visited:
+                    # Perform DFS to check if it's a sub-island and increment count if true
+                    if self.dfs(r, c, grid1, grid2):
+                        count += 1
         return count
 
-    def dfs(self, r, c, grid1, grid2, res):
+    def dfs(self, r, c, grid1, grid2):
+        # Base case: if out of bounds, water cell in grid2, or already visited
         if (r < 0 or r == self.rows or c < 0 or c == self.cols or grid2[r][c] == 0 or (r, c) in self.visited):
             return True
 
+        # Mark the cell as visited
         self.visited.add((r, c))
-        if grid1[r][c]:
-            res = True
-        else:
+      
+        # Assume the current cell is part of a sub-island unless proven otherwise
+        res = True
+        # If the corresponding cell in grid1 is water, it's not a sub-island
+        if grid1[r][c] == 0:
             res = False
 
+        # Explore all four possible directions from the current cell
         for d_r, d_c in self.directions:
             n_r = r + d_r
             n_c = c + d_c
-            res = res and self.dfs(n_r, n_c, grid1, grid2, res)
+            # Combine the result of DFS in each direction with the current result
+            res = self.dfs(n_r, n_c, grid1, grid2) and res
+
         return res
 
-
 # Complexity:
-# T:
-# S:
+# Time Complexity (T): O(rows * cols)
+# - Each cell is visited once, and in the worst case, 
+# DFS explores all its neighbors leading to a time complexity proportional to the number of cells in the grid.
+
+# Space Complexity (S): O(rows * cols)
+# - The space complexity is driven by the recursion stack and the visited set. 
+# In the worst case, all cells are visited, and the recursion stack can grow up to the size of the grid.
 
 # Testing:
 instance = CountSubIslands()
