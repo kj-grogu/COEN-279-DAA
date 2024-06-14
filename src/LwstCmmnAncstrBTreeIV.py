@@ -7,7 +7,7 @@ class TreeNode:
         self.val = x
         self.left = None
         self.right = None
-
+ 
 class LwstCmmnAncstrBTreeIV:
     def lowestCommonAncestor(self, root: 'TreeNode', nodes: 'List[TreeNode]') -> 'TreeNode':
         nodes = set(nodes)
